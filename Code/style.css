@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/dm-serif-text');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Serif Text";
+}
+
+.header {
+    background-color: rgb(67, 60, 66);
+}
+
+.navbar {
+    background-color: rgb(67, 60, 66);
+    padding: 1rem 7rem 3rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    transform: translateX(4rem);
+}
+
+.header-main h2 {
+    color: white;
+    font-weight: 300;
+}
+
+.header-description {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.header-description h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 200;
+}
+
+.header-section-line {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 1rem 0 1rem 0;
+    margin: 0 7rem 0 7rem;
+}
+
+
+.Footer {
+    background-color: rgb(67, 60, 66);
+    padding: 1rem 0 1rem 0;
+}
+
+.Footer-Desc {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer-Desc h3 {
+    color: white;
+    font-weight: 200;
+}
+
+.infographics-wrapper {
+    background-color: rgb(67, 60, 66);
+}
+
+.infographics-summary {
+    padding: 3rem 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.summary {
+    padding: 0 0 3rem 0;
+}
+
+.summary h1 {
+    color: white;
+    font-size: 52px;
+    font-family: "DM Serif Text";
+}
+
+.summary h3 {
+    color: white;
+    font-family: "DM Serif Text";
+    font-weight: 300;
+}
